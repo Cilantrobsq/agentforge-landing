@@ -467,7 +467,9 @@ export default function Home() {
                 </li>
               </ul>
               <a
-                href="mailto:paul.be@sapienstream.com?subject=Starter%20Plan%20Inquiry"
+                href="https://buy.stripe.com/fZu4gzewC4hBdcngmsb3q00"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block rounded-lg border border-[var(--color-border)] py-3 text-center text-sm font-medium transition hover:bg-[var(--color-bg-card-hover)]"
               >
                 Get Started
@@ -531,7 +533,9 @@ export default function Home() {
                 </li>
               </ul>
               <a
-                href="mailto:paul.be@sapienstream.com?subject=Growth%20Plan%20Inquiry"
+                href="https://buy.stripe.com/6oUcN5fAG01lb4f0nub3q01"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block rounded-lg bg-[var(--color-accent)] py-3 text-center text-sm font-medium text-white transition hover:bg-[var(--color-accent-light)]"
               >
                 Get Started
