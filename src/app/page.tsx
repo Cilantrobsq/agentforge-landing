@@ -62,21 +62,21 @@ const solutions = [
 const steps = [
   {
     step: "01",
-    title: "Discovery Call",
-    desc: "15-minute call to understand your workflows, pain points, and goals. We map which processes can be automated and estimate ROI.",
-    time: "Day 1",
+    title: "Choose Your Plan",
+    desc: "Pick the package that fits your needs. Answer a few questions about your workflows and goals. No calls, no waiting.",
+    time: "5 minutes",
   },
   {
     step: "02",
-    title: "Build & Deploy",
-    desc: "We configure your agent fleet: lead scraping, outreach sequences, CRM pipeline, email triage, whatever you need. Deployed on your infrastructure or ours.",
-    time: "Days 2-4",
+    title: "Automated Onboarding",
+    desc: "Our system collects your integrations, credentials, and preferences through a guided setup wizard. We provision your agent fleet automatically.",
+    time: "Same day",
   },
   {
     step: "03",
-    title: "Monitor & Optimize",
-    desc: "Agents run autonomously 24/7. We monitor performance, handle edge cases, and continuously optimize. Monthly ROI reports included.",
-    time: "Ongoing",
+    title: "Agents Go Live",
+    desc: "Your agents start running autonomously: lead gen, outreach, CRM, email triage. Real-time dashboard shows everything. We monitor and optimize continuously.",
+    time: "24-48 hours",
   },
 ];
 
@@ -174,7 +174,7 @@ const pricingPlans = [
       "CRM pipeline with analytics",
       "Reply detection and routing",
       "Monthly performance reports",
-      "2-week deployment",
+      "48-hour automated deployment",
     ],
     cta: "Get Started",
     href: "https://buy.stripe.com/fZu4gzewC4hBdcngmsb3q00",
@@ -204,7 +204,7 @@ const pricingPlans = [
     features: [
       "Everything in Growth",
       "Dedicated infrastructure",
-      "White-glove onboarding",
+      "Dedicated onboarding concierge",
       "Custom agent development",
       "SLA with uptime guarantees",
       "On-premise deployment option",
@@ -231,11 +231,11 @@ const faqs = [
   },
   {
     q: "How fast can you deploy?",
-    a: "Starter packages deploy in under 2 weeks. Growth packages in 2-3 weeks. This is not a 6-month consulting engagement.",
+    a: "Starter packages go live within 48 hours of completing onboarding. Growth packages within 72 hours. Fully automated, no scheduling needed.",
   },
   {
     q: "Can I see it working before I buy?",
-    a: "Absolutely. On our discovery call, we will show you our own production system running live. Real data, real workflows, real results.",
+    a: "Yes. Our case study section shows real metrics from our own production system. Same agents, same architecture, running live right now.",
   },
   {
     q: "What is the minimum commitment?",
@@ -250,7 +250,7 @@ export default function Home() {
       <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div className="text-xl font-bold tracking-tight">
-            <span className="text-primary">Sapien</span>Stream
+            <span className="text-primary">Agent</span>Forge
           </div>
           <div className="hidden gap-8 text-sm text-muted-foreground md:flex">
             <a href="#how-it-works" className="transition hover:text-foreground">
@@ -357,8 +357,8 @@ export default function Home() {
       <section id="how-it-works" className="mx-auto max-w-6xl px-6 py-24">
         <h2 className="mb-4 text-center text-4xl font-bold">How It Works</h2>
         <p className="mx-auto mb-16 max-w-2xl text-center text-muted-foreground">
-          From first call to live agents in under a week. No lengthy discovery
-          phases, no bloated SOWs.
+          From signup to live agents in under 48 hours. Fully self-service.
+          No calls, no sales reps, no waiting.
         </p>
         <div className="grid gap-6 md:grid-cols-3">
           {steps.map((item) => (
@@ -547,12 +547,12 @@ export default function Home() {
             Ready to Put AI to Work?
           </h2>
           <p className="mb-8 text-lg text-muted-foreground">
-            Book a 15-minute discovery call. We will show you our live system
-            and map out exactly what agents can do for your business.
+            Pick a plan, complete the onboarding wizard, and your agents
+            go live within 48 hours. Fully automated, no calls needed.
           </p>
           <Button asChild size="lg" className="px-10">
-            <a href="mailto:paul.be@sapienstream.com?subject=Discovery%20Call%20Request&body=Hi%2C%20I%27m%20interested%20in%20learning%20more%20about%20SapienStream%27s%20AI%20agent%20services.%20Let%27s%20schedule%20a%20call.">
-              Book a Discovery Call
+            <a href="#pricing">
+              Get Started Now
               <ArrowRight className="ml-2 size-4" />
             </a>
           </Button>
@@ -563,7 +563,7 @@ export default function Home() {
       <footer className="border-t border-border">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-8 md:flex-row">
           <div className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} SapienStream. The Blacksquid
+            &copy; {new Date().getFullYear()} AgentForge. The Blacksquid
             Research GmbH.
           </div>
           <a
