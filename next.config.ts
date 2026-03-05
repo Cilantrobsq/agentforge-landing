@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/sapienstream-landing",
-  assetPrefix: "/sapienstream-landing/",
+  basePath: "/agentforge-landing",
+  assetPrefix: "/agentforge-landing/",
 };
 
 export default nextConfig;
